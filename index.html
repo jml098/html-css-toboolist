@@ -1,28 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Toboolist</title>
 </head>
+
 <body>
-
-    <!-- Immagine di referenza -->
-    <img style="position: absolute; top: 0; left: 0; opacity: 0.5;" src="Toboolist-screenshot.png">
-
     <!-- Header della pagina -->
     <header>
         <div>
-            <img id="header_logo" src="img/Toboolist-logo.jpg" alt="Toboolist">
+            <img id="header-logo" src="img/Toboolist-logo.jpg" alt="Toboolist">
         </div>
     </header>
 
     <!-- Contenuto principale della pagina -->
     <main>
-        <div>
+
+        <!-- Container principale -->
+        <div id="main-container">
+            <div id="buttons-container">
+                <span class="button selected">Add Task</span>
+                <span class="button">Add Section</span>
+            </div>
+
+            <!-- Container della lista -->
+
+            <div id="list-container">
+                <div class="list_category">
+
+                    <h2>&#9662; New Task</h2>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Quarterly Newsletter <span
+                            class="item_type blue">Editorial</span>
+                    </div>
+                </div>
+
+                <div class="list_category">
+
+                    <h2>&#9662; Today</h2>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Recruiting blog post <span
+                            class="item_type blue">Editorial</span>
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Mobile app launch <span class="item_type purple">Q1
+                            Goals</span>
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded red_border">X</span> Interview John H. <span
+                            class="item_type green">Recruiting</span>
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Summit update to mobile storefronts <span
+                            class="item_type orange">Mobile</span>
+                    </div>
+
+                </div>
+
+                <div class="list_category">
+
+                    <h2>&#9662; Upcoming</h2>
+
+                    <div class="list_item">
+                        <span class="rounded red_border">X</span> Schedule meeting with Alex
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Homepage refresh <span class="item_type purple">Website</span>
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Interview John H. <span
+                            class="item_type lightgreen">Sales</span>
+                    </div>
+
+                    <div class="list_item">
+                        <span class="rounded green_border">✓</span> Summit update to mobile storefronts <span
+                            class="item_type blue">Editorial</span>
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     </main>
 </body>
+
 </html>
