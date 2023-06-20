@@ -61,10 +61,6 @@ header div {
    margin-bottom: 40px;
 }
 
-.list_category div {
-   line-height: 20px;
-}
-
 .rounded {
    display: inline-block;
    width: 20px;
@@ -87,6 +83,7 @@ header div {
 }
 
 .list_item {
+   line-height: 20px;
    margin-top: 15px;
 }
 
