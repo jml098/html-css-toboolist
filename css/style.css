@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 2px solid black;
+    
+    
+}
+
+
+header div {
+    line-height: 70px;
+    height: 70px;
+}
+
+#header_logo {
+vertical-align: middle;
+margin-left: 18px;
+}
